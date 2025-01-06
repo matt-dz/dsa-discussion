@@ -57,7 +57,7 @@
 				<div class="font-extralight">
 					<h1 class="font-bold">Office Hours</h1>
 					<!-- <div class="flex items-center">
-						<p>MALA 05123</p>
+						<p>MALA 05123</p
 						<div class="border-base-content mx-2 h-5 w-0 border-l"></div>
 						<p>Monday</p>
 						<div class="border-base-content mx-2 h-5 w-0 border-l"></div>
