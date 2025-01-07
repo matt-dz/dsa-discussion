@@ -8,7 +8,7 @@
 		{#if innerWidth >= 500}
 			<h1 class="font-bold transition-colors group-hover:text-orange-400">COP3530</h1>
 			<div
-				class="border-base-content mx-2 h-7 w-0 border-l border-solid transition-colors group-hover:border-[#E97451]"
+				class="mx-2 h-7 w-0 border-l border-solid border-base-content transition-colors group-hover:border-[#E97451]"
 			></div>
 		{/if}
 		<h1 class="font-extralight transition-colors group-hover:text-blue-500">

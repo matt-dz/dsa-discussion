@@ -5,9 +5,9 @@
 <div class="flex items-center">
 	<div class="flex w-full flex-col items-center">
 		<div class="flex w-full max-w-[610px] flex-col px-4">
-			<div class="collapse-arrow bg-base-200 group collapse mt-24">
+			<div class="group collapse collapse-arrow mt-24 bg-base-200">
 				<input type="checkbox" name="my-accordion-2" />
-				<div class="collapse-title accordion-header group-hover:text-blue-400">About Your TA</div>
+				<div class="accordion-header collapse-title group-hover:text-blue-400">About Your TA</div>
 				<div class="collapse-content">
 					<p>
 						Hello! My name is Matthew DeGuzman, I am a fourth year computer science major and this
@@ -42,7 +42,7 @@
 				</div>
 			</div>
 
-			<div class="divider divider-primary divider-header">General Information</div>
+			<div class="divider-header divider divider-primary">General Information</div>
 			<div class="flex w-full flex-col gap-2">
 				<div class="font-extralight">
 					<h1 class="font-bold">Discussion &ltsection number&gt</h1>
@@ -75,7 +75,7 @@
 				</div>
 			</div>
 
-			<div class="divider divider-secondary divider-header mt-12">Discussions</div>
+			<div class="divider-header divider divider-secondary mt-12">Discussions</div>
 			<!-- <div class="collapse-arrow bg-base-200 collapse">
 				<input type="checkbox" name="my-accordion-2" />
 				<div class="collapse-title accordion-header">1. C++</div>

@@ -1,9 +1,11 @@
 .PHONY: all
 
-include .env
+include .build.env
 export
 
+BUILD_NAME=cop3530
+TAG=$(DOCKER_REGISTRY)/$(BUILD_NAME)
+
 all:
-	sudo docker build -t cop3530 .
-	docker tag cop3530 $(DOCKER_REGISTRY)/cop3530
-	docker push $(DOCKER_REGISTRY)/cop3530
+	sudo docker build -t $(TAG) .
+	docker push $(TAG)
