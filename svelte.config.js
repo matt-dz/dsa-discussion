@@ -1,14 +1,15 @@
-import adapter from '@sveltejs/adapter-node'; // Switch to adapter-auto if you are deploying on Vercel, Cloudflare, or other supported environments.
+import autoAdapter from '@sveltejs/adapter-auto';
+import nodeAdapter from '@sveltejs/adapter-node';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+
+const isNode = process.env.ADAPTER === 'node';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		adapter: adapter({
-			out: 'build' // remove if using adapter-auto
-		})
+		adapter: isNode ? nodeAdapter({ out: 'build' }) : autoAdapter()
 	}
 };
 

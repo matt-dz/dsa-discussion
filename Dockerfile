@@ -3,8 +3,9 @@ FROM node:latest AS build
 WORKDIR /app
 COPY package*.json ./
 COPY . .
-RUN npm ci
+ENV ADAPTER=node
 
+RUN npm ci
 RUN npm run build
 RUN npm prune --production
 
@@ -18,4 +19,4 @@ ENV NODE_ENV=production
 EXPOSE 3000
 
 # Start the SvelteKit application
-CMD ["node", "build"]
+CMD ["node", "./build/index.js"]
