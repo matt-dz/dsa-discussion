@@ -1,7 +1,12 @@
 <script lang="ts">
-	export let href: string;
-	export let borderColor: string = '#ba9ee8';
-	export let hoverColor: string = '#3776ff';
+	import type { Snippet } from 'svelte';
+
+	let {
+		borderColor = '#ba9ee8',
+		hoverColor = '#3776ff',
+		href,
+		text
+	}: { borderColor?: string; hoverColor?: string; href: string; text: Snippet } = $props();
 </script>
 
 <a
@@ -9,11 +14,11 @@
 	target="_bank"
 	class="underline underline-offset-2 transition-colors duration-300 ease-in-out"
 	style="text-decoration-color: {borderColor};"
-	on:mouseover={(event) => (event.currentTarget.style.textDecorationColor = hoverColor)}
-	on:mouseout={(event) => (event.currentTarget.style.textDecorationColor = borderColor)}
-	on:focus={(event) => (event.currentTarget.style.textDecorationColor = hoverColor)}
-	on:blur={(event) => (event.currentTarget.style.textDecorationColor = borderColor)}
-	on:click={(event) => (event.currentTarget.style.textDecorationColor = borderColor)}
+	onmouseover={(event) => (event.currentTarget.style.textDecorationColor = hoverColor)}
+	onmouseout={(event) => (event.currentTarget.style.textDecorationColor = borderColor)}
+	onfocus={(event) => (event.currentTarget.style.textDecorationColor = hoverColor)}
+	onblur={(event) => (event.currentTarget.style.textDecorationColor = borderColor)}
+	onclick={(event) => (event.currentTarget.style.textDecorationColor = borderColor)}
 >
-	<slot>Link</slot>
+	{@render text()}
 </a>
