@@ -19,4 +19,4 @@ ENV NODE_ENV=production
 EXPOSE 3000
 
 # Start the SvelteKit application
-CMD ["node", "./build/index.js"]
+CMD ["node", "build"]
