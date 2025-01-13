@@ -49,7 +49,7 @@
 			<div class="flex w-full flex-col gap-2">
 				<div class="font-extralight">
 					<h1 class="font-bold">Section 10696</h1>
-					<div class="flex items-center">
+					<div class="flex flex-wrap items-center">
 						<p>NRN 1037</p>
 						<div class="my-divider"></div>
 						<p>Tuesday</p>
@@ -59,7 +59,7 @@
 				</div>
 				<div class="font-extralight">
 					<h1 class="font-bold">Office Hours</h1>
-					<div class="flex items-center">
+					<div class="flex flex-wrap items-center">
 						<p>MALA 5200 (Malachowsky Hall)</p>
 						<div class="my-divider"></div>
 						<p>Thursday</p>
