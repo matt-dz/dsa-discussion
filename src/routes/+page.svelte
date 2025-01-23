@@ -81,6 +81,7 @@
 			</div>
 
 			<div class="divider-header divider divider-secondary mt-12" id="discussions">Discussions</div>
+			<div class="flex flex-col gap-4">
 			<Discussion
 				name="c++"
 				title="1. C++ (01/14)"
@@ -93,6 +94,20 @@
 					</p>
 				{/snippet}
 			</Discussion>
+				<Discussion
+					name="algorithmic-analysis"
+					title="2. Algorithmic Analysis and Pseudocode (01/21)"
+					pptLink="https://docs.google.com/presentation/d/1SKauPvsXgH6VXktNGxwmlc8C0m5byvu_IYKe1cP9v9Y/edit?usp=sharing"
+				>
+					{#snippet description()}
+						<p>
+							This week, we're diving into the world of algorithmic analysis and pseudocode. Get
+							ready to learn how to analyze the efficiency of algorithms and write pseudocode to
+							plan out your code.
+						</p>
+					{/snippet}
+				</Discussion>
+			</div>
 		</div>
 	</div>
 </div>
