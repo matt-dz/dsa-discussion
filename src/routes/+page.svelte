@@ -64,7 +64,7 @@
 						<div class="my-divider"></div>
 						<p>Thursday</p>
 						<div class="my-divider"></div>
-						<p>8:30 am - 10:25 am</p>
+						<p>8:30 am - 9:20 am & 10:40 am - 11:30 am</p>
 					</div>
 				</div>
 
