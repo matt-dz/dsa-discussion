@@ -107,6 +107,28 @@
 						</p>
 					{/snippet}
 				</Discussion>
+				<Discussion
+					name="algorithmic-analysis"
+					title="3. Lists, Stacks, and Queues (01/28)"
+					pptLink="https://docs.google.com/presentation/d/1BJCV0xbhYQweHNKt5Cx7r-8tIpKw9Ndt/edit?usp=sharing&ouid=101706383218741169050&rtpof=true&sd=true"
+				>
+					{#snippet description()}
+						<p>
+							This week, we review stacks and queues as well as common algorithmic strategies such as the slow pointer, fast pointer technique on Linked Lists.
+						</p>
+					{/snippet}
+				</Discussion>
+				<Discussion
+					name="algorithmic-analysis"
+					title="4. Trees and Traversals (02/04)"
+					pptLink="https://docs.google.com/presentation/d/1SGjaeApZLrveO4CkKODq5qO72WVHeOAvq4IB9hM2E-I/edit?usp=sharing"
+				>
+					{#snippet description()}
+						<p>
+							This week, we review binary trees and the different tree traversals. We'll also cover a special case called binary search trees.
+						</p>
+					{/snippet}
+				</Discussion>
 			</div>
 		</div>
 	</div>
