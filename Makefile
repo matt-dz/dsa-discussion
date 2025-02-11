@@ -4,7 +4,7 @@ IMAGE_NAME ?= cop3530
 DOCKER_REGISTRY ?= matthew10125
 TAG ?= latest
 BUILD_NAME=$(DOCKER_REGISTRY)/$(IMAGE_NAME)
-PLATFORM ?= linux/amd64
+PLATFORM ?= linux/arm64
 
 
 build:
