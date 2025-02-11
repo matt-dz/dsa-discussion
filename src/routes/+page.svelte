@@ -81,7 +81,7 @@
 			</div>
 
 			<div class="divider-header divider divider-secondary mt-12" id="discussions">Discussions</div>
-			<div class="flex flex-col gap-4">
+			<div class="flex flex-col gap-4 mb-4">
 				<Discussion
 					name="c++"
 					title="1. C++ (01/14)"
