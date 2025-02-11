@@ -82,18 +82,18 @@
 
 			<div class="divider-header divider divider-secondary mt-12" id="discussions">Discussions</div>
 			<div class="flex flex-col gap-4">
-			<Discussion
-				name="c++"
-				title="1. C++ (01/14)"
-				pptLink="https://ufl.instructure.com/courses/525732/files/folder/Slides%20for%20Inperson%20Lectures/Discussion%20Presentations?preview=93479607"
-			>
-				{#snippet description()}
-					<p>
-						Welcome to the first week of discussion! We're doing a quick overview of C++. Get ready
-						to brush up on pointers, data types, classes, and more!
-					</p>
-				{/snippet}
-			</Discussion>
+				<Discussion
+					name="c++"
+					title="1. C++ (01/14)"
+					pptLink="https://ufl.instructure.com/courses/525732/files/folder/Slides%20for%20Inperson%20Lectures/Discussion%20Presentations?preview=93479607"
+				>
+					{#snippet description()}
+						<p>
+							Welcome to the first week of discussion! We're doing a quick overview of C++. Get
+							ready to brush up on pointers, data types, classes, and more!
+						</p>
+					{/snippet}
+				</Discussion>
 				<Discussion
 					name="algorithmic-analysis"
 					title="2. Algorithmic Analysis and Pseudocode (01/21)"
@@ -114,7 +114,8 @@
 				>
 					{#snippet description()}
 						<p>
-							This week, we review stacks and queues as well as common algorithmic strategies such as the slow pointer, fast pointer technique on Linked Lists.
+							This week, we review stacks and queues as well as common algorithmic strategies such
+							as the slow pointer, fast pointer technique on Linked Lists.
 						</p>
 					{/snippet}
 				</Discussion>
@@ -125,7 +126,20 @@
 				>
 					{#snippet description()}
 						<p>
-							This week, we review binary trees and the different tree traversals. We'll also cover a special case called binary search trees.
+							This week, we review binary trees and the different tree traversals. We'll also cover
+							a special case called binary search trees.
+						</p>
+					{/snippet}
+				</Discussion>
+				<Discussion
+					name="algorithmic-analysis"
+					title="5. Balanced Trees (02/11)"
+					pptLink="https://docs.google.com/presentation/d/10UCZmsEmkvm1EDEbkpLQU3r-4Sm7zPDUzkLD2kaJcZg/"
+				>
+					{#snippet description()}
+						<p>
+							This week, we go over balanced trees and their advantages over binary search trees.
+							We'll mainly focus on AVL trees and touch on red-black, splay, B, and B+ trees.
 						</p>
 					{/snippet}
 				</Discussion>
