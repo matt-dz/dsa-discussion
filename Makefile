@@ -1,11 +1,13 @@
-.PHONY: all
+.PHONY: build docker-push
 
-include .build.env
-export
+IMAGE_NAME ?= cop3530
+DOCKER_REGISTRY ?= matthew10125
+TAG ?= latest
+BUILD_NAME=$(DOCKER_REGISTRY)/$(IMAGE_NAME)
 
-BUILD_NAME=cop3530
-TAG=$(DOCKER_REGISTRY)/$(BUILD_NAME)
+build:
+	docker build -t $(BUILD_NAME) .
 
-all:
-	sudo docker build -t $(TAG) .
-	docker push $(TAG)
+docker-push:
+	docker tag $(BUILD_NAME) $(BUILD_NAME):$(TAG)
+	docker push $(BUILD_NAME):$(TAG)
