@@ -1,5 +1,5 @@
 # Stage 1: Build the SvelteKit application
-FROM node:latest AS build
+FROM --platform=$BUILDPLATFORM node:latest AS build
 WORKDIR /app
 COPY package*.json ./
 COPY . .
