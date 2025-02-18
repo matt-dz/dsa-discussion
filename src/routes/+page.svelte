@@ -81,7 +81,7 @@
 			</div>
 
 			<div class="divider-header divider divider-secondary mt-12" id="discussions">Discussions</div>
-			<div class="flex flex-col gap-4 mb-4">
+			<div class="mb-4 flex flex-col gap-4">
 				<Discussion
 					name="c++"
 					title="1. C++ (01/14)"
@@ -140,6 +140,18 @@
 						<p>
 							This week, we go over balanced trees and their advantages over binary search trees.
 							We'll mainly focus on AVL trees and touch on red-black, splay, B, and B+ trees.
+						</p>
+					{/snippet}
+				</Discussion>
+				<Discussion
+					name="algorithmic-analysis"
+					title="6. Mock Interview (02/18)"
+					pptLink="https://docs.google.com/presentation/d/1g95fl4lzjhVttD3vFRIj9rGXw_teVy0nj7af_hHynXM/edit?usp=sharing"
+				>
+					{#snippet description()}
+						<p>
+							This week, we dive into a mock interview to prepare you for the job market! We'll go
+							over resumes, behavioral questions, and technical questions.
 						</p>
 					{/snippet}
 				</Discussion>
