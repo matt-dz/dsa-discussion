@@ -155,6 +155,16 @@
 						</p>
 					{/snippet}
 				</Discussion>
+				<Discussion
+					name="algorithmic-analysis"
+					title="6. Mock Interview (02/18)"
+					pptLink="https://docs.google.com/presentation/d/1DXYDmENGEAaiuQMrsta6MlvZ4v3MFMH2q3dk8q7CwV4/edit"
+				>
+					{#snippet description()}
+						<p>Heaps!</p>
+					{/snippet}
+				</Discussion>
+				pptLink=""
 			</div>
 		</div>
 	</div>
