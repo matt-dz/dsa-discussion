@@ -157,14 +157,13 @@
 				</Discussion>
 				<Discussion
 					name="algorithmic-analysis"
-					title="6. Mock Interview (02/18)"
+					title="7. Exam 1 Review (02/25)"
 					pptLink="https://docs.google.com/presentation/d/1DXYDmENGEAaiuQMrsta6MlvZ4v3MFMH2q3dk8q7CwV4/edit"
 				>
 					{#snippet description()}
-						<p>Heaps!</p>
+						<p>Exam 1 Review!!! Review trees, BSTs, and heaps in preparation for the midterm.</p>
 					{/snippet}
 				</Discussion>
-				pptLink=""
 			</div>
 		</div>
 	</div>
