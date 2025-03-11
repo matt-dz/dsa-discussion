@@ -164,6 +164,18 @@
 						<p>Exam 1 Review!!! Review trees, BSTs, and heaps in preparation for the midterm.</p>
 					{/snippet}
 				</Discussion>
+				<Discussion
+					name="sorting"
+					title="8. Sorting (03/11)"
+					pptLink="https://docs.google.com/presentation/d/1ONDt_dJn_ISCR3iWgABeoauVqaY9W80JxOgAckExL5o/edit?usp=sharing"
+				>
+					{#snippet description()}
+						<p>
+							This week we discuss sorting algorithms! We'll go over the basic quadratic sorts, then
+							the more advanced linearithmic sorts, and some niche sorts such as shell sort.
+						</p>
+					{/snippet}
+				</Discussion>
 			</div>
 		</div>
 	</div>
